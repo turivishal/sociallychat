@@ -1,0 +1,33 @@
+{
+  "name": "sociallychat",
+  "version": "1.0.0",
+  "description": "Socially chat is allow to chat socially without showing your identity.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turivishal/sociallychat.git"
+  },
+  "keywords": [
+    "chat",
+    "socially",
+    "sociallychat",
+    "chatsocially",
+    "communication",
+    "opencommunication",
+    "openchat"
+  ],
+  "author": "Vishal Turi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turivishal/sociallychat/issues"
+  },
+  "homepage": "https://github.com/turivishal/sociallychat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}

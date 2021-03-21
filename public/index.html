@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+
+<head>
+    <!-- # -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- # -->
+    <meta property="og:title" content="Socially Chat" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="Socially Chat" />
+    <meta property="og:description" content="Socially Chat" />
+    <!-- # -->
+    <meta itemprop="name" content="Socially Chat">
+    <meta itemprop="description" content="Socially Chat">
+    <meta name="description" content="Socially Chat">
+    <meta name="keywords" content="Socially Chat">
+    <!-- # -->
+    <title>Socially Chat</title>
+    <!-- # -->
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png"> -->
+    <!-- # -->
+    <link rel="stylesheet" href="style.css">
+    <!-- # -->
+    <noscript></noscript>
+</head>
+
+<body>
+    <ul class="pages">
+        <li class="chat page">
+            <div class="chatArea">
+                <ul class="messages"></ul>
+            </div>
+            <input class="inputMessage" placeholder="Type here..." />
+        </li>
+        <li class="login page">
+            <div class="form">
+                <h3 class="title">What's your nickname?</h3>
+                <input class="usernameInput" type="text" maxlength="14" />
+            </div>
+        </li>
+    </ul>
+
+    <footer class="footer text-center">Copyright © 2021 Chat Zone. All rights reserved.</footer>
+    <!-- # SUPPORT FOR IE-->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
